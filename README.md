@@ -2,6 +2,9 @@
 
 ##### Yet another tool for Go config management. This is a simple package that supports loading environment variables into a custom struct. 
 
+![](https://github.com/michaelwomack/configit/workflows/go.yml/badge.svg)
+
+
 #### Example
 
 ```go
