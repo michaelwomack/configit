@@ -39,11 +39,6 @@ func main() {
 		}
 	}
 
-	_ = os.Setenv("API_URL", "http://localhost:8080")
-	_ = os.Setenv("MAX_CONCURRENCY", "10")
-	_ = os.Setenv("DB_PORT", "3306")
-	_ = os.Setenv("DB_HOST", "127.0.0.1")
-
 	conf := &config{}
 	if err := configit.Load(conf); err != nil {
 		log.Fatalln(err)
