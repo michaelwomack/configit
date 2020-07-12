@@ -1,11 +1,22 @@
 # Configit
 
-##### Yet another tool for Go config management. This is a simple package that supports loading environment variables into a custom struct. 
+#### Yet another tool for Go config management. This is a simple package that supports loading environment variables into a custom struct. 
 
-![Build Status](https://github.com/michaelwomack/configit/workflows/Go/badge.svg)
+![Build Status](https://github.com/michaelwomack/configit/workflows/build/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-default.svg)](https://opensource.org/licenses/MIT)
 
 
-#### Example
+
+#### Install 
+```shell
+go get github.com/michaelwomack/configit
+```
+#### Usage
+```shell
+export API_URL=https://localhost:8080
+export MAX_CONCURRENCY=10
+export DB_PORT=5432
+export DB_HOST=127.0.0.1
+```
 
 ```go
 package main
